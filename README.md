@@ -1,2 +1,2 @@
-# CidLinkSequencer
-Cooperative music application example using the cooperative framework CidLink for Max
+# CidLinkExamples
+Cooperative music application examples using the cooperative framework CidLink for Max
