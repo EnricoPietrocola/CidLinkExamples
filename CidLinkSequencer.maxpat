@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 890.0, 913.0 ],
+		"rect" : [ 35.0, 85.0, 890.0, 913.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -65,13 +65,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-180",
-					"linecount" : 2,
+					"linecount" : 9,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1499.0, 1452.0, 50.0, 36.0 ],
-					"text" : "direction 0"
+					"patching_rect" : [ 1499.0, 1452.0, 50.0, 133.0 ],
+					"text" : "pitch 52 52 60 60 59 57 57 57 56 61 60 57 59 55 59 57"
 				}
 
 			}
@@ -1173,7 +1173,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 741.0, 315.0, 49.0, 133.0 ],
-					"text" : "\"pitch 61 59 52 62 51 56 65 71 71 62 62 62 62 55 59 57\""
+					"text" : "\"pitch 52 52 60 60 59 57 57 57 56 61 60 57 59 55 59 57\""
 				}
 
 			}
@@ -1632,7 +1632,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2120,7 +2120,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3053,7 +3053,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 409.5, 416.0, 123.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 409.5, 44.0, 128.0, 22.0 ],
+					"presentation_rect" : [ 576.5, 14.0, 128.0, 22.0 ],
 					"text" : "roomName testRoom"
 				}
 
@@ -3061,13 +3061,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 9,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.0, 624.0, 50.0, 133.0 ],
-					"text" : "pitch 54 60 62 59 60 52 56 55 64 60 62 64 52 61 53 54"
+					"patching_rect" : [ 317.0, 624.0, 50.0, 36.0 ],
+					"text" : "Connected"
 				}
 
 			}
@@ -3092,10 +3092,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 409.5, 386.0, 165.0, 22.0 ],
+					"patching_rect" : [ 409.5, 386.0, 225.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 409.5, 14.0, 165.0, 22.0 ],
-					"text" : "address http://127.0.0.1:5000"
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 409.5, 14.0, 165.0, 50.0 ],
+					"text" : "address http://enricopietrocola.com:5000"
 				}
 
 			}
@@ -4465,12 +4466,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "CidLinkClient.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/CidLinkMax/patchers",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/CidLinkMax/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CidLinkMaxClient.js",
 				"bootpath" : "~/Documents/Max 8/Packages/CidLinkMax/javascript",
+				"patcherrelativepath" : "../Documents/Max 8/Packages/CidLinkMax/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
